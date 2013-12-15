@@ -1,10 +1,11 @@
 {
   "version": "1.0",
   "name": "Star Trek: TOS Sounds",
-  "description": "Awesome collection of Star Trek: TOS Sounds for FirefoxOS",
+  "description": "Awesome collection of Star Trek: TOS Sounds for Firefox OS",
   "launch_path": "/index.html",
   "developer": {
     "name": "Radu-Bogdan Croitoru",
+    "url": "http://dotix.usr.sh"
   },
   "default_locale": "en"
 }

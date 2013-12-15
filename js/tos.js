@@ -9,13 +9,12 @@
                  ];
 
     soundsListLength = soundsList.length;
-    console.log(soundsListLength);
 
     $.ionSound({
         sounds: soundsList,
         path: "sounds/",
         multiPlay: true,
-        volume: "0.5"
+        volume: "0.8"
     });
 
     function playStarTrekTos(evt) {
@@ -30,8 +29,27 @@
         }
     }
 
+
     for (var i = 0; i < soundsListLength; i++) {
         $('#' + soundsList[i]).on("click", playStarTrekTos);
     }
 
+})();
+
+(function(){
+    function install(evt) {
+        evt.preventDefault();
+        var manifestUrl = 'http://dotix.usr.sh/tos/manifest.webapp';
+        var req = navigator.mozApps.installPackage(manifestUrl);
+
+        req.onsuccess = function() {
+            alert(this.result.origin);
+        };
+
+        req.onerror = function() {
+            alert(this.error.name);
+        };
+    }
+
+    $('#install').on('click', install);
 })();

@@ -9,18 +9,19 @@ I've used [Building Blocks](https://github.com/buildingfirefoxos/Building-Blocks
 
 You can fork this project and contribute if you want.
 
+Check the webapp [here](http://dotix.usr.sh/tos/index.html).
+
 ### How to use this?
 
 Using on your machine:
 
-* Clone this and run a simple HTTP Server.
-* Use [Firefox OS Simulator](https://addons.mozilla.org/en-US/firefox/addon/firefox-os-simulator/)
+* Clone this repository and run a simple HTTP Server: ```python -m SimpleHTTPServer```
+* Clone this repository and add manifest.webapp to the [Firefox OS Simulator](https://addons.mozilla.org/en-US/firefox/addon/firefox-os-simulator/)
 
 On your Firefox OS device:
 
-* Check remote debugging from Developer Settings and 'Push' the application from the [Firefox OS Simulator](https://addons.mozilla.org/en-US/firefox/addon/firefox-os-simulator/)
-
-__I will also upload this on my server so you can install of your FirefoxOS device.__
+* Go to http://dotix.usr.sh/tos/index.html and click Install from the bottom of the page to install it on your device.
+* Check remote debugging from Developer Settings and 'Push' the application from the [Firefox OS Simulator](https://addons.mozilla.org/en-US/firefox/addon/firefox-os-simulator/).
 
 ### License
 
